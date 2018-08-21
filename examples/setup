@@ -1,0 +1,2 @@
+# First add the code directory to your pythonpath
+export PYTHONPATH=$PWD/../:$PYTHONPATH
