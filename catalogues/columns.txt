@@ -1,0 +1,56 @@
+# The columns in the galaxy catalogues in this directory are:
+
+object_id        (i8):   Unique galaxy (subhalo) identifier  
+gas_mass         (f8):   Mass of the gaseous component, 10^10 h^-1 M_sun  
+matter_mass      (f8):   Mass of the dark matter component, 10^10 h^-1 M_sun  
+stellar_mass     (f8):   Mass of the stellar component, 10^10 h^-1 M_sun  
+npart_dm         (i8):   Total number of dark matter particles in the subhalo    
+npart_baryon     (i8):   Total number of star particles in the subhalo
+e1               (f8):   The e1 component of the projected ellipticity (of the visible part of the galaxy)
+e2               (f8):   The e2 component of the projected ellipticity (of the visible part of the galaxy)
+e1_dm            (f8):   The e1 component of the projected ellipticity (of the dark matter part of the galaxy)  
+e2_dm            (f8):   The e2 component of the projected ellipticity (of the dark matter part of the galaxy)   
+a1               (f8):   The x axis component of the 3D major axis vector  
+a2               (f8):   The y axis component of the 3D major axis vector  
+a3               (f8):   The z axis component of the 3D major axis vector  
+b1               (f8):   The x axis component of the 3D intermediate axis vector    
+b2               (f8):   The y axis component of the 3D intermediate axis vector    
+b3               (f8):   The z axis component of the 3D intermediate axis vector    
+c1               (f8):   The x axis component of the 3D minor axis vector    
+c2               (f8):   The y axis component of the 3D minor axis vector    
+c3               (f8):   The z axis component of the 3D minor axis vector    
+a1_dm            (f8):   The x axis component of the 3D major axis vector of the dark matter part of the galaxy
+a2_dm            (f8):   The y axis component of the 3D major axis vector of the dark matter part of the galaxy
+a3_dm            (f8):   The z axis component of the 3D major axis vector of the dark matter part of the galaxy
+b1_dm            (f8):   The x axis component of the 3D intermediate axis vector of the dark matter part of the galaxy
+b2_dm            (f8):   The y axis component of the 3D intermediate axis vector of the dark matter part of the galaxy
+b3_dm            (f8):   The z axis component of the 3D intermediate axis vector of the dark matter part of the galaxy
+c1_dm            (f8):   The x axis component of the 3D minor axis vector of the dark matter part of the galaxy
+c2_dm            (f8):   The y axis component of the 3D minor axis vector of the dark matter part of the galaxy
+c3_dm            (f8):   The z axis component of the 3D minor axis vector of the dark matter part of the galaxy
+lambda_a         (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy     
+lambda_b         (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy     
+lambda_c         (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy     
+lambda_a_proj    (f8):   Eigenvalue of the 2D inertia tensor associated with this galaxy (subset of the 3D inertia tensor)  
+lambda_b_proj    (f8):   Eigenvalue of the 2D inertia tensor associated with this galaxy (subset of the 3D inertia tensor)  
+lambda_a_dm      (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy (dark matter)  
+lambda_b_dm      (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy (dark matter)  
+lambda_c_dm      (f8):   Eigenvalue of the 3D inertia tensor associated with this galaxy (dark matter)  
+lambda_a_proj_dm (f8):   Eigenvalue of the 2D inertia tensor associated with this galaxy (dark matter)  
+lambda_b_proj_dm (f8):   Eigenvalue of the 2D inertia tensor associated with this galaxy (dark matter)  
+x                (f8):   The x-axis comoving position of the galaxy centroid in 3D Cartesian coordinates, h^-1 Mpc  
+y                (f8):   The y-axis comoving position of the galaxy centroid in 3D Cartesian coordinates, h^-1 Mpc  
+z                (f8):   The z-axis comoving position of the galaxy centroid in 3D Cartesian coordinates, h^-1 Mpc 
+x0               (f8):   The x-axis comoving position of the host halo centroid in 3D Cartesian coordinates, h^-1 Mpc    
+y0               (f8):   The y-axis comoving position of the host halo centroid in 3D Cartesian coordinates, h^-1 Mpc    
+z0               (f8):   The z-axis comoving position of the host halo centroid in 3D Cartesian coordinates, h^-1 Mpc   
+xcent            (f8):   The x-axis comoving position of the central galaxy associated with the host halo   
+ycent            (f8):   The y-axis comoving position of the central galaxy associated with the host halo   
+zcent            (f8):   The z-axis comoving position of the central galaxy associated with the host halo   
+vrot             (f8):   Mean rotational velocity of star particles within the subhalo, kms^-1 
+sigma            (f8):   Velocity dispersion of star particles within the subhalo, kms^-1 
+rh               (f8):   Radial distance between the halo centroid and the centroid of the galaxy  
+most_massive     (i8):   Binary flag identifying the most massive (dark matter + baryon mass) galaxy in this halo  
+spatial_central  (f8):   Binary flag identifying the closest galaxy in this halo to the halo centroid  
+halo_id          (i8):   Unique identifier for the host halo  
+nocc             (i8):   Number of galaxies in the host halo (including this one)
