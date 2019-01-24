@@ -3,8 +3,8 @@ A home for the examples, code and catalogues associated with IA halo symmetry pa
 
 Requirements (beyond the obvious):
 
-* TreeCorr
+* TreeCorr (http://rmjarvis.github.io/TreeCorr/html/index.html)
 
-* halotools
+* halotools (https://halotools.readthedocs.io/en/latest/)
 
-* fitsio
+* fitsio (https://pypi.org/project/fitsio/)
