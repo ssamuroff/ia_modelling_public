@@ -1,5 +1,5 @@
 # ia_modelling_public
-A home for the examples, code and catalogues associated with IA halo symmetry paper
+A home for the examples, code and catalogues associated with IA halo symmetry paper arXiv:190X.XXXXX
 
 Requirements (beyond the obvious):
 
