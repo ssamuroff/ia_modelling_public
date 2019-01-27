@@ -49,7 +49,8 @@ ycent            (f8):   The y-axis comoving position of the central galaxy asso
 zcent            (f8):   The z-axis comoving position of the central galaxy associated with the host halo   
 vrot             (f8):   Mean rotational velocity of star particles within the subhalo, kms^-1 
 sigma            (f8):   Velocity dispersion of star particles within the subhalo, kms^-1 
-rh               (f8):   Radial distance between the halo centroid and the centroid of the galaxy  
+rh               (f8):   Radial distance between the halo centroid and the centroid of the galaxy
+hybrid_central   (f8):   Binary flag identifying the central galaxy in this halo, defined as the most massive galaxy within a sphere of radius R_vir from the halo centroid.  
 most_massive     (i8):   Binary flag identifying the most massive (dark matter + baryon mass) galaxy in this halo  
 spatial_central  (f8):   Binary flag identifying the closest galaxy in this halo to the halo centroid  
 halo_id          (i8):   Unique identifier for the host halo  
